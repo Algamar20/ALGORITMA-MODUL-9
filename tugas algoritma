@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int N;
+	cout << "Masukan nilai :" << endl;
+	cin >> N;
+	if (N>50)
+	{
+		N = N + 10;
+	}
+	else
+	{
+		N = N + 25;
+	}
+	cout << "Hasil nilai adalah"<< endl << N << endl;
+	return 0;
+}
